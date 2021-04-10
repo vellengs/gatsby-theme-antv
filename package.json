@@ -1,16 +1,16 @@
 {
-  "name": "@antv/gatsby-theme-antv",
+  "name": "@dataexa/gatsby-theme-sati",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/antvis/gatsby-theme-antv"
+    "url": "https://github.com/sativs"
   },
   "bugs": {
-    "url": "https://github.com/antvis/gatsby-theme-antv/issues"
+    "url": "https://github.com/sativs/issues"
   },
   "license": "MIT",
   "workspaces": [
-    "@antv/gatsby-theme-antv",
+    "@dataexa/gatsby-theme-sati",
     "example"
   ],
   "devDependencies": {
@@ -33,8 +33,8 @@
     "start": "yarn workspace example develop",
     "build": "yarn workspace example build",
     "deploy": "yarn build && gh-pages -d example/public",
-    "test": "yarn workspace @antv/gatsby-theme-antv test",
-    "release": "yarn workspace @antv/gatsby-theme-antv run release",
+    "test": "yarn workspace @dataexa/gatsby-theme-sati test",
+    "release": "yarn workspace @dataexa/gatsby-theme-sati run release",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md,less}\"",
     "lint": "eslint . --ext '.js,.jsx,.ts,.tsx'",
     "lint:fix": "eslint . --ext '.js,.jsx,.ts,.tsx' --fix",

@@ -6,14 +6,6 @@
 
 ✨ Polished Gatsby theme for documentation site.
 
-[![](https://flat.badgen.net/npm/v/@antv/gatsby-theme-antv?icon=npm)](https://www.npmjs.com/package/@antv/gatsby-theme-antv)
-[![NPM downloads](http://img.shields.io/npm/dm/@antv/gatsby-theme-antv.svg?style=flat-square)](http://npmjs.com/@antv/gatsby-theme-antv)
-![CI status](https://github.com/antvis/gatsby-theme-antv/workflows/Node%20CI/badge.svg)
-
-[![Dependency Status](https://david-dm.org/antvis/gatsby-theme-antv.svg?style=flat-square&path=@antv/gatsby-theme-antv)](https://david-dm.org/antvis/gatsby-theme-antv?path=@antv/gatsby-theme-antv)
-[![devDependencies Status](https://david-dm.org/antvis/gatsby-theme-antv/dev-status.svg?style=flat-square&path=@antv/gatsby-theme-antv)](https://david-dm.org/antvis/gatsby-theme-antv?type=dev&path=@antv/gatsby-theme-antv)
-![prettier code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
-
 </div>
 
 ## Features
@@ -66,7 +58,7 @@ const { repository } = require('./package.json');
 module.exports = {
   plugins: [
     {
-      resolve: `@antv/gatsby-theme-antv`,
+      resolve: `@dataexa/gatsby-theme-sati`,
       options: {
         // pagesPath: './site/pages',
         GATrackingId: `UA-XXXXXXXXX-X`,
@@ -141,15 +133,15 @@ module.exports = {
 - [Companies Props](https://github.com/antvis/gatsby-theme-antv/blob/c6178d1baeebce4ef4e31773a6b533020b662b27/%40antv/gatsby-theme-antv/site/components/Companies.tsx#L6-L16)
 
 ```jsx
-import SEO from '@antv/gatsby-theme-antv/site/components/Seo';
-import Header from '@antv/gatsby-theme-antv/site/components/Header';
-import Footer from '@antv/gatsby-theme-antv/site/components/Footer';
-import Banner from '@antv/gatsby-theme-antv/site/components/Banner';
-import Features from '@antv/gatsby-theme-antv/site/components/Features';
-import Applications from '@antv/gatsby-theme-antv/site/components/Applications';
-import Companies from '@antv/gatsby-theme-antv/site/components/Companies';
+import SEO from '@dataexa/gatsby-theme-sati/site/components/Seo';
+import Header from '@dataexa/gatsby-theme-sati/site/components/Header';
+import Footer from '@dataexa/gatsby-theme-sati/site/components/Footer';
+import Banner from '@dataexa/gatsby-theme-sati/site/components/Banner';
+import Features from '@dataexa/gatsby-theme-sati/site/components/Features';
+import Applications from '@dataexa/gatsby-theme-sati/site/components/Applications';
+import Companies from '@dataexa/gatsby-theme-sati/site/components/Companies';
 
-// @antv/gatsby-theme-antv/components/Header for commonjs version
+// @dataexa/gatsby-theme-sati/components/Header for commonjs version
 
 const Layout = () => {
   const features = [
@@ -350,7 +342,7 @@ More details for the GitHub releases preperation: [GitHub Releases](https://gith
 3. Run the following commands in your terminal.
 
 ```bash
-cd @antv/gatsby-theme-antv
+cd @dataexa/gatsby-theme-sati
 npm run release
 ```
 
@@ -365,14 +357,14 @@ npm run deploy
 ## Add Dependency
 
 ```bash
-cd @antv/gatsby-theme-antv
+cd @dataexa/gatsby-theme-sati
 yarn add shallowequal
 ```
 
 or
 
 ```bash
-yarn workspace @antv/gatsby-theme-antv add shallowequal
+yarn workspace @dataexa/gatsby-theme-sati add shallowequal
 ```
 
 ## Q&A

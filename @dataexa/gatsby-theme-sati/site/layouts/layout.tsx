@@ -8,7 +8,7 @@ import { FooterProps } from 'rc-footer';
 import Seo from '../components/Seo';
 import Header from '../components/Header';
 import PageLoading from '../components/PageLoading';
-import Footer, { OLD_SITE_DOMAIN } from '../components/Footer';
+import Footer from '../components/Footer';
 import styles from './layout.module.less';
 
 i18n
@@ -170,7 +170,7 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
         return location.pathname.replace(new RegExp(from), to);
       }
       // 如果没有指定 to，则直接用替换成老版本的域名
-      return to || `${OLD_SITE_DOMAIN}${location.pathname}`;
+      return to;
     }
   };
 
