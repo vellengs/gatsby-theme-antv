@@ -172,7 +172,7 @@ const Header: React.FC<HeaderProps> = ({
 
   const { img, link } = {
     img: isAntVHome ? <AntvHomeLogo /> : <AntvLogo />,
-    link: '',
+    link: siteUrl,
     ...logo,
   };
 

@@ -1,5 +1,5 @@
 {
-  "include": ["@dataexa/gatsby-theme-sati", "example"],
+  "include": ["gatsby-theme-nestx", "example"],
   "compilerOptions": {
     "target": "es2019",
     "module": "commonjs",

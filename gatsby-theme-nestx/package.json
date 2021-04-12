@@ -1,5 +1,5 @@
 {
-  "name": "@dataexa/gatsby-theme-sati",
+  "name": "gatsby-theme-nestx",
   "description": "Ant Visualization solution home page",
   "version": "1.1.1",
   "author": "AntV Team <antv@antfin.com>",
@@ -8,13 +8,13 @@
     "antvis",
     "antv"
   ],
-  "homepage": "https://antvis.github.io",
+  "homepage": "https://nestx.github.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antvis/gatsby-theme-antv"
+    "url": "https://github.com/vellengs/gatsby-theme-antv"
   },
   "bugs": {
-    "url": "https://github.com/antvis/gatsby-theme-antv/issues"
+    "url": "https://github.com/vellengs/gatsby-theme-antv/issues"
   },
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
@@ -123,7 +123,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "release": "release-it",
-    "copy:components": "mkdir -p lib && cp -R .tmp/@dataexa/gatsby-theme-sati/site/components lib && cp site/components/*.less ./lib/components && cp site/common.json ./lib && cp -R site/images ./lib",
+    "copy:components": "mkdir -p lib && cp -R .tmp/gatsby-theme-nestx/site/components lib && cp site/components/*.less ./lib/components && cp site/common.json ./lib && cp -R site/images ./lib",
     "compile:components": "rm -rf .tmp lib && ../../node_modules/.bin/tsc --outDir .tmp --noEmit false -d && npm run copy:components",
     "test": "jest"
   },

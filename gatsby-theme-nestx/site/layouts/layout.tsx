@@ -108,6 +108,7 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
       docsearchOptions,
       versions,
       ecosystems,
+      rootDomain,
     },
   } = site;
 
@@ -191,11 +192,11 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
         </Helmet>
       )}
       <Seo
-        title={siteUrl === 'https://antv.vision' ? '' : title}
+        title={siteUrl === 'https://antv.1.vision' ? '' : title}
         lang={i18n.language}
       />
       <Header
-        subTitle={siteUrl === 'https://antv.vision' ? '' : title}
+        subTitle={siteUrl === 'https://antv.1.vision' ? '' : title}
         path={path}
         pathPrefix={pathPrefix}
         navs={navs}
@@ -213,6 +214,7 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
         docsearchOptions={docsearchOptions}
         versions={versions}
         ecosystems={ecosystems}
+        rootDomain={rootDomain}
         {...logoProps}
       />
       <main className={styles.main}>{children}</main>
@@ -222,7 +224,7 @@ const Layout: React.FC<LayoutProps> = ({ children, location, footerProps }) => {
       ) && (
         <Footer
           githubUrl={githubUrl}
-          rootDomain="https://antv.vision"
+          rootDomain={rootDomain}
           location={location}
           {...footerProps}
         />

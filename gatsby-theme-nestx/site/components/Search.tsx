@@ -29,12 +29,12 @@ function initDocSearch({
     transformData(hits: Array<{ url: string }>) {
       hits.forEach((hit) => {
         /* eslint-disable no-param-reassign */
-        hit.url = hit.url.replace('g2.antv.vision', window.location.host);
-        hit.url = hit.url.replace('g6.antv.vision', window.location.host);
-        hit.url = hit.url.replace('f2.antv.vision', window.location.host);
-        hit.url = hit.url.replace('l7.antv.vision', window.location.host);
-        hit.url = hit.url.replace('g2plot.antv.vision', window.location.host);
-        hit.url = hit.url.replace('graphin.antv.vision', window.location.host);
+        hit.url = hit.url.replace('g2.antv2.vision', window.location.host);
+        hit.url = hit.url.replace('g6.antv2.vision', window.location.host);
+        hit.url = hit.url.replace('f2.antv2.vision', window.location.host);
+        hit.url = hit.url.replace('l7.antv2.vision', window.location.host);
+        hit.url = hit.url.replace('g2plot.antv2.vision', window.location.host);
+        hit.url = hit.url.replace('graphin.antv2.vision', window.location.host);
         hit.url = hit.url.replace('https:', window.location.protocol);
         hit.url = hit.url.replace('#gatsby-focus-wrapper', '');
         /* eslint-enable no-param-reassign */

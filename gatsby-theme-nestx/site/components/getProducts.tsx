@@ -1,16 +1,5 @@
 import React from 'react';
 
-import {
-  AreaChartOutlined,
-  DingdingOutlined,
-  GithubOutlined,
-  HistoryOutlined,
-  HomeOutlined,
-  PieChartOutlined,
-  ReadOutlined,
-  YuqueOutlined,
-} from '@ant-design/icons';
-
 import { getChinaMirrorHost } from '../utils';
 
 const tuple = <T extends string[]>(...args: T) => args;
@@ -30,7 +19,7 @@ export interface ProductItem {
   }>;
 }
 
-const ANTV_DOMAIN = 'antv.vision';
+const ANTV_DOMAIN = 'antv2.vision';
 
 export type ValuesOf<T extends any[]> = T[number];
 

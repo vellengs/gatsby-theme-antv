@@ -3,21 +3,23 @@ const { version, repository, homepage } = require('./package.json');
 module.exports = {
   plugins: [
     {
-      resolve: '@dataexa/gatsby-theme-sati',
+      resolve: 'gatsby-theme-nestx',
       options: {
         GATrackingId: `UA-148148901-11`,
       },
     },
   ],
   siteMetadata: {
-    title: 'AntV test site',
-    description: 'Ant Visualization solution home page',
+    title: 'Nestx Docs',
+    description: 'Nestx documentation site',
     siteUrl: homepage,
+    rootDomain: 'https://www.domain.com',
     githubUrl: repository.url,
     showChartResize: true,
     showAPIDoc: true,
     themeSwitcher: 'g2plot',
     galleryMenuCloseAll: true,
+    showChinaMirror: false,
     navs: [
       {
         slug: 'docs/specification/getting-started',

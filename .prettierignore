@@ -2,4 +2,4 @@
 package.json
 package-lock.json
 public
-@dataexa/gatsby-theme-sati/lib
+gatsby-theme-nestx/lib

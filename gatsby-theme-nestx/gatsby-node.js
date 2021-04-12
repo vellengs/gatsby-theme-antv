@@ -503,6 +503,7 @@ exports.sourceNodes = ({ actions }) => {
       githubUrl: String!
       siteUrl: String @defaultString
       logoUrl: String
+      rootDomain: String
       navs: [SiteSiteMetadataNavs]
       docs: [SiteSiteMetadataDocs]
       examples: [SiteSiteMetadataExamples]

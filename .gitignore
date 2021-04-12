@@ -69,7 +69,7 @@ yarn-error.log
 .yarn-integrity
 
 .tmp
-@dataexa/gatsby-theme-sati/lib
+gatsby-theme-nestx/lib
 
 dist
 package-lock.json

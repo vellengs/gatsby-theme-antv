@@ -1,5 +1,5 @@
-@dataexa/gatsby-theme-sati/site/**/*.js
-@dataexa/gatsby-theme-sati/lib
+gatsby-theme-nestx/site/**/*.js
+gatsby-theme-nestx/lib
 example/examples
 node_modules
 .cache

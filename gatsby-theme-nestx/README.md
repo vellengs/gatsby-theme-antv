@@ -20,14 +20,6 @@
 
 ## Websites using it
 
-- ✨ https://antv.vision
-- ✨ https://g2plot.antv.vision
-- ✨ https://g2.antv.vision
-- ✨ https://g6.antv.vision
-- ✨ https://f2.antv.vision
-- ✨ https://l7.antv.vision
-- ✨ https://graphin.antv.vision
-
 ## Usage
 
 Create a Gatsby site from [gatsby-starter-theme-antv](https://github.com/antvis/gatsby-starter-theme-antv).
@@ -55,7 +47,7 @@ const { repository } = require('./package.json');
 module.exports = {
   plugins: [
     {
-      resolve: `@dataexa/gatsby-theme-sati`,
+      resolve: `gatsby-theme-nestx`,
       options: {
         // pagesPath: './site/pages',
         GATrackingId: `UA-XXXXXXXXX-X`,
@@ -124,15 +116,15 @@ module.exports = {
 - [Companies Props](https://github.com/antvis/gatsby-theme-antv/blob/c6178d1baeebce4ef4e31773a6b533020b662b27/%40antv/gatsby-theme-antv/site/components/Companies.tsx#L6-L16)
 
 ```jsx
-import SEO from '@dataexa/gatsby-theme-sati/site/components/Seo';
-import Header from '@dataexa/gatsby-theme-sati/site/components/Header';
-import Footer from '@dataexa/gatsby-theme-sati/site/components/Footer';
-import Banner from '@dataexa/gatsby-theme-sati/site/components/Banner';
-import Features from '@dataexa/gatsby-theme-sati/site/components/Features';
-import Applications from '@dataexa/gatsby-theme-sati/site/components/Applications';
-import Companies from '@dataexa/gatsby-theme-sati/site/components/Companies';
+import SEO from 'gatsby-theme-nestx/site/components/Seo';
+import Header from 'gatsby-theme-nestx/site/components/Header';
+import Footer from 'gatsby-theme-nestx/site/components/Footer';
+import Banner from 'gatsby-theme-nestx/site/components/Banner';
+import Features from 'gatsby-theme-nestx/site/components/Features';
+import Applications from 'gatsby-theme-nestx/site/components/Applications';
+import Companies from 'gatsby-theme-nestx/site/components/Companies';
 
-// @dataexa/gatsby-theme-sati/components/Header for commonjs version
+// gatsby-theme-nestx/components/Header for commonjs version
 
 const Layout = () => {
   const features = [
@@ -262,7 +254,7 @@ Visit https://localhost:8000 to preview.
 ## Publish to npm
 
 ```bash
-cd @dataexa/gatsby-theme-sati
+cd gatsby-theme-nestx
 npm run release
 ```
 
@@ -277,14 +269,14 @@ npm run deploy
 ## Add Dependency
 
 ```bash
-cd @dataexa/gatsby-theme-sati
+cd gatsby-theme-nestx
 yarn add shallowequal
 ```
 
 or
 
 ```bash
-yarn workspace @dataexa/gatsby-theme-sati shallowequal
+yarn workspace gatsby-theme-nestx shallowequal
 ```
 
 ## Related libraries

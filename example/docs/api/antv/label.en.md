@@ -117,7 +117,6 @@ g2 默认指定 label 类型，其中极坐标默认为 `polar`，theta 坐标�
 }
 
 // 2 IGroup | IShape
-// 示例 https://g2.antv.vision/zh/examples/pie/basic#pie-custome-label
 
 // 3. GeometryLabelContentCallback 回调函数为
 // highlight-start
